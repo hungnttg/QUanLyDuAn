@@ -1,0 +1,278 @@
+B2-SU2021
+Link lab
+https://drive.google.com/drive/u/0/folders/1Tdxt1MiQLkYntPMrL65itJPs-jmem1UJ
+
+-------
+https://meet.google.com/bpr-aafg-faj
+-----
+https://meet.google.com/qbk-phha-zjd
+--------
+Quản lý dự án:
+Hình thức học: 1 lý thuyết, 1 thực hành
+Buổi 1,Buổi 3, Buổi 5,....Buổi 15: Học lý thuyết 1...8
+Buổi 2, Buổi 4, Buổi 6,...Buổi 16: Học thực hành 1....8
+Thực hành: Làm theo nhóm -> mỗi bạn đều phải nộp bài lên classroom-> bạn nào cũng phải nộp
+Hạn nộp bài: bây giờ + 24h. Ví dụ: workshop 1: 7h15 hôm nay -> 7h15 ngày mai
+------
+Nội dung bài học:
+Bài 1: Giới thiệu Agile và Scrum
+1. Agile? Triết lý: cần hoàn thiện 1 tính năng sản phẩm trong 1 thời gian ngắn nhất-> sản phẩm cần hoàn thiện sớm nhất
+2. Scrum? Là mô hình làm việc dựa trên triết lý Agile -> chia ra qui trình hoàn thiện sản phẩm ngắn nhất
+3. Quản lý dự án?
+	- QUản lý tiến độ: Dự án có đúng tiến độ không? Thành viên có làm việc đúng tiến độ không
+	- Quản lý về chất lượng: Dự án có đảm bảo chất lượng không? Thành viên dev có đảm bảo chất lượng không
+	- Quản lý thay đổi: Khách hành có hay thay đổi yêu cầu không? 
+	- Quản lý rủi ro: Quan tấm vấn đề chất lượng dự án: tiến độ, thay đổi, công nghệ
+------------------------
+4. Các khái niệm trong Scrum (mô hình quản lý dự án)
+1. Scrum Team: Dự án nào cũng cần phải chia nhóm (5->7 người)
+	1.Product Owner: Là người hiểu sâu về sản phẩm, quản lý các công việc còn tồn đọng. liên tục họp với dev để dev lập trình theo đúng tiến độ, và đúng yêu cầu (~ leader)
+	2. Dev (3->5): Người lập trình
+	3. Scrum Master: lên kế hoạch làm việc, phân công cộng việc, sắp xếp công việc theo thứ tự ~ PM
+Tóm lại:
+	PO ~ lead
+	Dev~ dev
+	SM~ PM
+2.Product Backlog: Danh sách các đầu việc cần làm -> 
+	SM đưa ra danh sách chức năng
+	PO chuyển chức năng thành các công việc cần làm
+	Dev thực hiện các công việc
+3. Do không thể giải quyết tất cả các công việc trong 1 thời gian ngắn -> chia ra các giai đoạn
+Giai đoạn chính là các Sprint (chạy nước rút)
+Ví dụ: Bài Assignment chia làm 3 print: Giai đoạn 1, giai đoạn 2, giai đoạn hoàn thiện
+1 spint ~ từ 2 tuần đến 1 tháng ~ 1 chức năng nhỏ cần phải hoàn thiện trong 1 sprint
+4. Cách thức thực hiện:
+Buổi sáng cả nhóm họp 15 phút: Daily Sprint
+Mỗi thành viên cần trả lời 3 câu hỏi
+Hôm qua làm gì?
+Có khó khăn gì?
+Hôm nay làm gì?
+Sau khi họp xong-> mỗi thành viên cần cập nhật kế hoạch của mình lên kế hoạch chung và thực hiện
+Thông thường: Từ 1 đến 2 ngày phải hoàn thiện 1 đầu việc, nếu không thể hoàn thiện được thì cần chia nhỏ hơn
+---------------------
+5. Dùng công cụ nào để quản lý?
+- Trello: website hỗ trợ quản lý theo mô hình Scrum
+- Jira (mất phí)
+- Excel
+-----------
+6. Nội dung workshop 1:
+6.1 Họp daily meeting:
+	- Lên ý tưởng về chương trình nhóm sẽ xây dựng (ví dụ dự án môn Java 2)
+		Các chức năng: 
+			1. Login, logout
+			2. Thêm sản phẩm
+			3. Hiển thị sản phẩm
+			4. Sửa sản phẩm
+			6. Xóa sản phẩm
+			7. Chức năng tìm kiếm sản phẩm
+			8. Thống kê sản phẩm
+		Ví dụ chia mỗi chức năng là 1 sprint => sẽ có 8 sprint
+	- Tạo product backlog cho chức năng 1
+Kết quả phải nộp:
+	1.File kế hoạch xây dựng ứng dụng (file word)
+		Các chức năng: 
+			1. Login, logout, thời gian:
+			2. Thêm sản phẩm
+			3. Hiển thị sản phẩm
+			4. Sửa sản phẩm
+			6. Xóa sản phẩm
+			7. Chức năng tìm kiếm sản phẩm
+			8. Thống kê sản phẩm
+	2. file sơ đồ hoạt động của các chức năng (sơ đồ khối)
+Vi du:
+PO: design chức năng, phân công công viec, viet product backlog
+	Dev1: Tao so do khoi, viet kich ban test
+	Dev2: Thiet ke giao dien
+	Dev3: Viet thu vien: cac ham ket noi, xu ly du lieu, cac file helper
+	Dev 4: Lap trinh chuc nang
+	Dev 5: Kiem thu
+	SM: quan ly tien do cua cac thanh vien, review tien do lam viec va chat luong cong viec cua Dev, xac nhan voi PO ve nang suat lam viec cua cac thanh vien
+
+
+------
+Chốt lại: Quản lý dự án
+- Họp (15 phút)
+- Làm (1 đến 2 ngày phải xong 1 đầu việc)
+------------------------------------------------------------------------
+Chú ý: Nộp bài: now + 24h
+	Khi nộp: 2 lần Hand in (lần 1: file zip; lần 2: file video (2 phút kết quả)
+----------------------
+Học:
+8 lý thuyết: 1,3,5,...15
+8 thực hành (8 workshop): 2,4,...16
+Buổi 17: làm đề thi thử
+---------------------------
+Quản lý dự án với Scrum và Agile
+Nghĩa là: Dùng mô hình Scrum để quản lý dự án theo triết lý Agile
+Scrum: 1 mô hình (Polytechnic)
+Agile: 1 triết lý (xong sản phẩm trong thời gian ngắn nhất)(Thực học thực nghiệp)
+Scrum: tên mô hình
+- mô hình bố trí theo nhóm (3->7 người):
+	+ Scrum Master (SM)~ tương đương công việc của Quản lý dự án
+	+ Product Owner (PO)~ tương đương công việc của Nhóm trưởng
+	+ Developer (Dev): Lập trình
+- Làm việc theo danh sách công việc (product backlog) đã được liệt kê trong quá trình họp (Daily meeting)
+- Thời gian làm (sprint): trong vòng 2 tuần đến 1 tháng phải xong 1 chức năng
+	=> 1 sprint tương đương với 2 tuần
+- Mỗi lập trình viên thực hiện 1 đầu việc không quá 2 ngày (trong 2 ngày xong 1 việc)
+---------
+Tóm lại: Cần nhớ các khái niệm
+Agile: là 1 triết lý -> hoàn thiện sản phẩm trong thời gian sớm nhất
+Scrum: mô hình quản lý theo nhóm
+Nhóm: gồm SM, PO, Dev
+Danh sách công việc: Product Backlog (PB)
+Họp hàng ngày (15 phút): Daily Meeting
+Sprint: Chu kỳ làm 1 chức năng (2 tuần-> 1 tháng)
+Dev: Cần hoàn thiện 1 đầu việc tối đa là 2 ngày (nếu không thể thì tách đôi công việc)
+Nguyên tắc: 
+Dev: Phải báo cáo công việc hàng ngày, đầu giờ, trong cuộc họp 15 phút Daily Meeting
+PO: Làm rõ công việc của từng Dev,kiểm soát tiến độ hoàn thành chức năng, chất lượng làm việc của Dev
+SM: Kiểm soát tiến độ của từng sprint, qui trình làm việc
+----------------
+Công việc hàng ngày:
+Đến công ty -> họp 15 phút -> làm việc -> báo cáo (file excel, trello)-> về nghỉ->....
+Họp: Cần trả lời 3 câu hỏi
+1. Hôm qua làm được gì?
+2. Có khó khăn gì cần hỗ trợ?
+3. Hôm nay làm gì?
+----------------
+Quản lý dự án:
+	- Quản lý tiến độ (hoàn thành đúng hạn không)~SM
+	- Quản lý chất lượng công việc (đúng, sai thế nào?)~ PO
+	- PO là người liệt kê các công việc cần làm
+-------------------
+Tóm lại:
+Quản lý dự án: QL tiến độ + quản lý chất lượng
+Mô hình Scrum: chia nhóm, làm việc theo Sprint, họp hàng ngày
+----------
+Yêu cầu: Xây dựng chương trình quản lý nhân viên
+Workshop1:
+SM: nhìn tổng thể dự án cần xây dựng, chia các giai đoạn (sprint)
+	SP1: Thực hiện chức năng đăng nhập
+	SP2: Thêm
+	SP3: HIển thị
+	SP4: Sửa
+	SP5: Xóa
+	SP6: Tìm kiếm
+	SP7: Thống kê
+	Mỗi khi xong 1 sprint, SM xác nhận hoàn thành để đóng Sprint
+PO: liệt kê các công việc trong từng giai đoạn
+	SP1: Đăng nhập
+		Dev1: tạo sơ đồ hoạt động + lên kịch bản test
+		Dev2: Thiết kế giao diện
+		Dev3: Viết các thư viện, các hàm chung dùng để kết nối, xử lý (thư viện chứa hàm login, logout)
+		Dev4: Lập trình chức năng đăng nhập (kết nối giao diện với thư viện, thực hiện nghiệp vụ)
+		Dev5: Test
+	Sau khi dev làm xong, PO cần review kết quả làm việc, báo cáo SM
+	Nếu dev chậm tiến độ, PO cần báo cáo SM
+Dev: Tham gia họp cùng SM, PO, trả lời 3 hỏi, cập nhật tiến độ hoàn thành lên báo cáo (file excel, trello)
+-------
+Workshop2:
+Yêu cầu: Xây dựng chương trình quản lý nhân viên
+SM: nhìn tổng thể dự án cần xây dựng, chia các giai đoạn (sprint)
+	SP1: Thực hiện chức năng đăng nhập
+	SP2: Thêm
+	SP3: HIển thị
+	SP4: Sửa
+	SP5: Xóa
+	SP6: Tìm kiếm
+	SP7: Thống kê
+	Mỗi khi xong 1 sprint, SM xác nhận hoàn thành để đóng Sprint
+PO: liệt kê các công việc trong từng giai đoạn
+	SP1: Thêm
+		Dev1: tạo sơ đồ hoạt động + lên kịch bản test
+			TC1: nhập ký tự đặc biệt -> login
+			TC2: Không nhập gì -> login
+			TC3: Nếu sai pass -> trả về kết quả gì
+			TC4: Sai user-> trả về kết quả gì
+			TC5: Đúng cả U, P thì .....
+		Dev2: Thiết kế giao diện
+			Mockup, giao diện trên netbean
+		Dev3: Viết các thư viện, các hàm chung dùng để kết nối, xử lý (thư viện chứa hàm login, logout)
+			Helper.java
+				login, logout
+		Dev4: Lập trình chức năng đăng nhập (kết nối giao diện với thư viện, thực hiện nghiệp vụ)
+		Dev5: Test
+	Sau khi dev làm xong, PO cần review kết quả làm việc, báo cáo SM
+	Nếu dev chậm tiến độ, PO cần báo cáo SM
+Dev: Tham gia họp cùng SM, PO, trả lời 3 hỏi, cập nhật tiến độ hoàn thành lên báo cáo (file excel, trello)
+---------
+Thời gian làm: 
+Workshop1: Lên kế hoạch, bản báo cáo chi tiết cho thầy bằng file word và file sơ đồ chức năng
+Workshop2: Triển khai chức năng đăng nhập
+Workshop3: Kiểm tra tiến độ ws2, triển khai chức năng Thêm
+Workshop4: Kiểm tra tiến độ ws3, triển khai chức năng Hiển thị
+Workshop5: Kiểm tra tiến độ ws4, triển khai chức năng Sửa
+Workshop6: Kiểm tra tiến độ ws5, triển khai chức năng Xóa
+Workshop7: Kiểm tra tiến độ ws6, triển khai chức năng Tìm kiếm
+Workshop8: Kiểm tra tiến độ ws7, triển khai chức năng Thống kê
+Kết quả cuối cùng phải nộp: Kế hoạch thiết kế trên file excel hoặc trên trello + sản phẩm làm được
+---
+Tóm lại: Qui trình xây dựng 1 app
+Chú ý: Trong mô hình Scrum không có trưởng nhóm (leader),không có pm (project manager)
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
