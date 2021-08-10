@@ -1,0 +1,1378 @@
+B2-SU2021
+Link lab
+https://drive.google.com/drive/u/0/folders/1Tdxt1MiQLkYntPMrL65itJPs-jmem1UJ
+
+-------
+https://meet.google.com/bpr-aafg-faj
+-----
+https://meet.google.com/qbk-phha-zjd
+--------
+Quản lý dự án:
+Hình thức học: 1 lý thuyết, 1 thực hành
+Buổi 1,Buổi 3, Buổi 5,....Buổi 15: Học lý thuyết 1...8
+Buổi 2, Buổi 4, Buổi 6,...Buổi 16: Học thực hành 1....8
+Thực hành: Làm theo nhóm -> mỗi bạn đều phải nộp bài lên classroom-> bạn nào cũng phải nộp
+Hạn nộp bài: bây giờ + 24h. Ví dụ: workshop 1: 7h15 hôm nay -> 7h15 ngày mai
+------
+Nội dung bài học:
+Bài 1: Giới thiệu Agile và Scrum
+1. Agile? Triết lý: cần hoàn thiện 1 tính năng sản phẩm trong 1 thời gian ngắn nhất-> sản phẩm cần hoàn thiện sớm nhất
+2. Scrum? Là mô hình làm việc dựa trên triết lý Agile -> chia ra qui trình hoàn thiện sản phẩm ngắn nhất
+3. Quản lý dự án?
+	- QUản lý tiến độ: Dự án có đúng tiến độ không? Thành viên có làm việc đúng tiến độ không
+	- Quản lý về chất lượng: Dự án có đảm bảo chất lượng không? Thành viên dev có đảm bảo chất lượng không
+	- Quản lý thay đổi: Khách hành có hay thay đổi yêu cầu không? 
+	- Quản lý rủi ro: Quan tấm vấn đề chất lượng dự án: tiến độ, thay đổi, công nghệ
+------------------------
+4. Các khái niệm trong Scrum (mô hình quản lý dự án)
+1. Scrum Team: Dự án nào cũng cần phải chia nhóm (5->7 người)
+	1.Product Owner: Là người hiểu sâu về sản phẩm, quản lý các công việc còn tồn đọng. liên tục họp với dev để dev lập trình theo đúng tiến độ, và đúng yêu cầu (~ leader)
+	2. Dev (3->5): Người lập trình
+	3. Scrum Master: lên kế hoạch làm việc, phân công cộng việc, sắp xếp công việc theo thứ tự ~ PM
+Tóm lại:
+	PO ~ lead
+	Dev~ dev
+	SM~ PM
+2.Product Backlog: Danh sách các đầu việc cần làm -> 
+	SM đưa ra danh sách chức năng
+	PO chuyển chức năng thành các công việc cần làm
+	Dev thực hiện các công việc
+3. Do không thể giải quyết tất cả các công việc trong 1 thời gian ngắn -> chia ra các giai đoạn
+Giai đoạn chính là các Sprint (chạy nước rút)
+Ví dụ: Bài Assignment chia làm 3 print: Giai đoạn 1, giai đoạn 2, giai đoạn hoàn thiện
+1 spint ~ từ 2 tuần đến 1 tháng ~ 1 chức năng nhỏ cần phải hoàn thiện trong 1 sprint
+4. Cách thức thực hiện:
+Buổi sáng cả nhóm họp 15 phút: Daily Sprint
+Mỗi thành viên cần trả lời 3 câu hỏi
+Hôm qua làm gì?
+Có khó khăn gì?
+Hôm nay làm gì?
+Sau khi họp xong-> mỗi thành viên cần cập nhật kế hoạch của mình lên kế hoạch chung và thực hiện
+Thông thường: Từ 1 đến 2 ngày phải hoàn thiện 1 đầu việc, nếu không thể hoàn thiện được thì cần chia nhỏ hơn
+---------------------
+5. Dùng công cụ nào để quản lý?
+- Trello: website hỗ trợ quản lý theo mô hình Scrum
+- Jira (mất phí)
+- Excel
+-----------
+6. Nội dung workshop 1:
+6.1 Họp daily meeting:
+	- Lên ý tưởng về chương trình nhóm sẽ xây dựng (ví dụ dự án môn Java 2)
+		Các chức năng: 
+			1. Login, logout
+			2. Thêm sản phẩm
+			3. Hiển thị sản phẩm
+			4. Sửa sản phẩm
+			6. Xóa sản phẩm
+			7. Chức năng tìm kiếm sản phẩm
+			8. Thống kê sản phẩm
+		Ví dụ chia mỗi chức năng là 1 sprint => sẽ có 8 sprint
+	- Tạo product backlog cho chức năng 1
+Kết quả phải nộp:
+	1.File kế hoạch xây dựng ứng dụng (file word)
+		Các chức năng: 
+			1. Login, logout, thời gian:
+			2. Thêm sản phẩm
+			3. Hiển thị sản phẩm
+			4. Sửa sản phẩm
+			6. Xóa sản phẩm
+			7. Chức năng tìm kiếm sản phẩm
+			8. Thống kê sản phẩm
+	2. file sơ đồ hoạt động của các chức năng (sơ đồ khối)
+Vi du:
+PO: design chức năng, phân công công viec, viet product backlog
+	Dev1: Tao so do khoi, viet kich ban test
+	Dev2: Thiet ke giao dien
+	Dev3: Viet thu vien: cac ham ket noi, xu ly du lieu, cac file helper
+	Dev 4: Lap trinh chuc nang
+	Dev 5: Kiem thu
+	SM: quan ly tien do cua cac thanh vien, review tien do lam viec va chat luong cong viec cua Dev, xac nhan voi PO ve nang suat lam viec cua cac thanh vien
+
+
+------
+Chốt lại: Quản lý dự án
+- Họp (15 phút)
+- Làm (1 đến 2 ngày phải xong 1 đầu việc)
+------------------------------------------------------------------------
+Chú ý: Nộp bài: now + 24h
+	Khi nộp: 2 lần Hand in (lần 1: file zip; lần 2: file video (2 phút kết quả)
+----------------------
+Học:
+8 lý thuyết: 1,3,5,...15
+8 thực hành (8 workshop): 2,4,...16
+Buổi 17: làm đề thi thử
+---------------------------
+Quản lý dự án với Scrum và Agile
+Nghĩa là: Dùng mô hình Scrum để quản lý dự án theo triết lý Agile
+Scrum: 1 mô hình (Polytechnic)
+Agile: 1 triết lý (xong sản phẩm trong thời gian ngắn nhất)(Thực học thực nghiệp)
+Scrum: tên mô hình
+- mô hình bố trí theo nhóm (3->7 người):
+	+ Scrum Master (SM)~ tương đương công việc của Quản lý dự án
+	+ Product Owner (PO)~ tương đương công việc của Nhóm trưởng
+	+ Developer (Dev): Lập trình
+- Làm việc theo danh sách công việc (product backlog) đã được liệt kê trong quá trình họp (Daily meeting)
+- Thời gian làm (sprint): trong vòng 2 tuần đến 1 tháng phải xong 1 chức năng
+	=> 1 sprint tương đương với 2 tuần
+- Mỗi lập trình viên thực hiện 1 đầu việc không quá 2 ngày (trong 2 ngày xong 1 việc)
+---------
+Tóm lại: Cần nhớ các khái niệm
+Agile: là 1 triết lý -> hoàn thiện sản phẩm trong thời gian sớm nhất
+Scrum: mô hình quản lý theo nhóm
+Nhóm: gồm SM, PO, Dev
+Danh sách công việc: Product Backlog (PB)
+Họp hàng ngày (15 phút): Daily Meeting
+Sprint: Chu kỳ làm 1 chức năng (2 tuần-> 1 tháng)
+Dev: Cần hoàn thiện 1 đầu việc tối đa là 2 ngày (nếu không thể thì tách đôi công việc)
+Nguyên tắc: 
+Dev: Phải báo cáo công việc hàng ngày, đầu giờ, trong cuộc họp 15 phút Daily Meeting
+PO: Làm rõ công việc của từng Dev,kiểm soát tiến độ hoàn thành chức năng, chất lượng làm việc của Dev
+SM: Kiểm soát tiến độ của từng sprint, qui trình làm việc
+----------------
+Công việc hàng ngày:
+Đến công ty -> họp 15 phút -> làm việc -> báo cáo (file excel, trello)-> về nghỉ->....
+Họp: Cần trả lời 3 câu hỏi
+1. Hôm qua làm được gì?
+2. Có khó khăn gì cần hỗ trợ?
+3. Hôm nay làm gì?
+----------------
+Quản lý dự án:
+	- Quản lý tiến độ (hoàn thành đúng hạn không)~SM
+	- Quản lý chất lượng công việc (đúng, sai thế nào?)~ PO
+	- PO là người liệt kê các công việc cần làm
+-------------------
+Tóm lại:
+Quản lý dự án: QL tiến độ + quản lý chất lượng
+Mô hình Scrum: chia nhóm, làm việc theo Sprint, họp hàng ngày
+----------
+Yêu cầu: Xây dựng chương trình quản lý nhân viên
+Workshop1:
+SM: nhìn tổng thể dự án cần xây dựng, chia các giai đoạn (sprint)
+	SP1: Thực hiện chức năng đăng nhập
+	SP2: Thêm
+	SP3: HIển thị
+	SP4: Sửa
+	SP5: Xóa
+	SP6: Tìm kiếm
+	SP7: Thống kê
+	Mỗi khi xong 1 sprint, SM xác nhận hoàn thành để đóng Sprint
+PO: liệt kê các công việc trong từng giai đoạn
+	SP1: Đăng nhập
+		Dev1: tạo sơ đồ hoạt động + lên kịch bản test
+		Dev2: Thiết kế giao diện
+		Dev3: Viết các thư viện, các hàm chung dùng để kết nối, xử lý (thư viện chứa hàm login, logout)
+		Dev4: Lập trình chức năng đăng nhập (kết nối giao diện với thư viện, thực hiện nghiệp vụ)
+		Dev5: Test
+	Sau khi dev làm xong, PO cần review kết quả làm việc, báo cáo SM
+	Nếu dev chậm tiến độ, PO cần báo cáo SM
+Dev: Tham gia họp cùng SM, PO, trả lời 3 hỏi, cập nhật tiến độ hoàn thành lên báo cáo (file excel, trello)
+-------
+Workshop2:
+Yêu cầu: Xây dựng chương trình quản lý nhân viên
+SM: nhìn tổng thể dự án cần xây dựng, chia các giai đoạn (sprint)
+	SP1: Thực hiện chức năng đăng nhập
+	SP2: Thêm
+	SP3: HIển thị
+	SP4: Sửa
+	SP5: Xóa
+	SP6: Tìm kiếm
+	SP7: Thống kê
+	Mỗi khi xong 1 sprint, SM xác nhận hoàn thành để đóng Sprint
+PO: liệt kê các công việc trong từng giai đoạn
+	SP1: Thêm
+		Dev1: tạo sơ đồ hoạt động + lên kịch bản test
+			TC1: nhập ký tự đặc biệt -> login
+			TC2: Không nhập gì -> login
+			TC3: Nếu sai pass -> trả về kết quả gì
+			TC4: Sai user-> trả về kết quả gì
+			TC5: Đúng cả U, P thì .....
+		Dev2: Thiết kế giao diện
+			Mockup, giao diện trên netbean
+		Dev3: Viết các thư viện, các hàm chung dùng để kết nối, xử lý (thư viện chứa hàm login, logout)
+			Helper.java
+				login, logout
+		Dev4: Lập trình chức năng đăng nhập (kết nối giao diện với thư viện, thực hiện nghiệp vụ)
+		Dev5: Test
+	Sau khi dev làm xong, PO cần review kết quả làm việc, báo cáo SM
+	Nếu dev chậm tiến độ, PO cần báo cáo SM
+Dev: Tham gia họp cùng SM, PO, trả lời 3 hỏi, cập nhật tiến độ hoàn thành lên báo cáo (file excel, trello)
+---------
+Thời gian làm: 
+Workshop1: Lên kế hoạch, bản báo cáo chi tiết cho thầy bằng file word và file sơ đồ chức năng
+Workshop2: Triển khai chức năng đăng nhập
+Workshop3: Kiểm tra tiến độ ws2, triển khai chức năng Thêm
+Workshop4: Kiểm tra tiến độ ws3, triển khai chức năng Hiển thị
+Workshop5: Kiểm tra tiến độ ws4, triển khai chức năng Sửa
+Workshop6: Kiểm tra tiến độ ws5, triển khai chức năng Xóa
+Workshop7: Kiểm tra tiến độ ws6, triển khai chức năng Tìm kiếm
+Workshop8: Kiểm tra tiến độ ws7, triển khai chức năng Thống kê
+Kết quả cuối cùng phải nộp: Kế hoạch thiết kế trên file excel hoặc trên trello + sản phẩm làm được
+---
+Tóm lại: Qui trình xây dựng 1 app
+Chú ý: Trong mô hình Scrum không có trưởng nhóm (leader),không có pm (project manager)
+
+---------------------------------------------------------------------------------------------------
+Bài 2 - Triển khai Sprint 1
+B1. Cần đưa kế hoạch trong workshop1 lên công cụ quản lý (trello)
+	B1.1- Đăng ký -> đăng nhập -> tạo kế hoạch
+	B1.2- Workspace -> Tạo Board (~ tạo 1 sprint) -> SM làm và add thành viên bằng cách invite email
+	B1.3- Tạo các list công việc (SM tạo list chung)
+		Product Backlog: SM tạo theo thống nhất của PO (PO đưa danh sách công việc cho SM)
+		Processing: Các công việc đang làm (Dev sẽ được assign vào từ đầu buổi)
+		Review: Dev cần chuyển sang List review sau khi đã kết thúc công việc (thường cuối 		ngày 1, hoặc cuối ngày 2)-> PO sẽ xem phần review
+		Done: Là trạng thái PO chuyển từ list review sang
+	B1.4-SM sẽ thêm các đầu việc (add Card vào List)
+		*Với mỗi Card sẽ thêm 1 member để dev làm việc
+		*Chọn Edit Date để xác định thời hạn hoàn thành
+		* Vẽ sơ đồ: Sơ đồ chức năng (word)(như môn CSDL)
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quản lý dự án với Agile
+Agile là 1 triết lý: (làm nhanh 1 sản phẩm trong thời gian ngắn nhất)
+Scrum: là một mô hình quản lý dự án dựa trên triết lý Agile
+Chúng ta app dụng mô hình Scrum -> Quản lý dự án với Scrum và Agile
+Chú ý: Khi học môn Nhập môn kỹ thuật phần mềm -> mô hình waterfall (mô hình thác nước)
+---------------------
+Quản lý dự án:
+Ví dụ:
+Dự án: Làm bài assignment
+Chia 3 giai đoạn:
+Asm giai đoạn 1: (sprint 1)
+Asm giai đoạn 2: (sprint 2)
+Asm giai đoạn hoàn thiện: (sprint 3)
+Quản lý cái gì?
+	- Quản lý tiến độ (nộp bài sớm, muộn)
+	- Quản lý chất lượng (đúng, sai, tốt, chưa tốt)
+=>Quản lý dự án là quản lý tiến độ + Quản lý chất lượng của các lập trình viên
+------------------
+Scrum: 
+1. Chia nhóm (Scrum Team)
+	1.1.SM (Scrum Master): Lên kế hoạch công việc, theo dõi, nắm thông tin dự án, đưa 		công việc lên công cụ quản lý (trello) ~ trợ lý dự án
+		- Tham gia họp Daily meeting
+	1.2. Product Owner (PO): ~ leader
+	-Tạo danh mục công việc (Product backlog) dựa trên kế hoạch của SM
+	-Phân công công việc cho Developer (Dev)
+	-Chuyển Product backkog cho SM để đưa lên công cụ quản lý (trello)
+	- Tham gia họp Daily meeting
+	1.3: Dev (lập trình viên)
+	- Nhận nhiệm vụ, đưa ra kế hoạch làm việc dựa trên Product backlog
+	- Làm xong cần cập nhật lên công cụ quản lý (attach code) => ai cũng nhìn thấy bạn 		làm đến đâu? bạn có làm việc hay không
+	- Mỗi một đầu việc làm không quá 2 ngày => gần như ngày nào cũng cần xong 1 việc
+	- Tham gia họp Daily meeting
+	
+2. Chia giai đoạn (sprint): 1 sprint khoảng 2 tuần -> 1 tháng
+	Sprint 1 (với sprint 1 tuần): 
+		S1.2
+		S1.3
+		S1.4
+		S1.5
+		S1.6
+3. Họp hàng ngày (Daily meeting)
+	Họp 15 phút
+	Trả lời 3 câu hỏi:
+	Hôm qua làm gì?
+	Có khó khăn gì cần hỗ trợ?
+	Hôm nay làm gì?
+Tóm lại Scrum:
+	Scrum Team (PO, SM, Dev): 3
+	Sprint: < tháng
+	Daily meeting: 15 phút, họp hàng ngày, trả lời 3 câu hỏi
+-----
+Công cụ hỗ trợ quản lý: file excel, jira (mất phí), trello
+--------------
+Ví dụ: Làm 1 dự án Quản lý nhân viên
+Workshop1: thực hiện vào buổi 2
+	1.SM: 
+		Nhìn thấy tổng thể dự án cần xây dựng
+		Chia ra thành các giai đoạn (sprint)
+		SP1: Đăng nhập, đăng xuất
+		SP2: Thêm
+		SP3: Hiển thị
+		SP4: Sửa
+		SP5: Xóa
+		SP6: Tìm kiếm
+		SP7: Thống kê
+		Khi giao việc cho Scrum Team (nhóm), SM xác nhận hoàn thành (hoặc không) để 		đóng sprint
+	2. PO: Chia nhỏ các công việc trong Sprint 
+		(xây dựng Product Backlog, đưa lên trello)
+		SP1: Đăng nhập đăng xuất
+			Dev1: tạo sơ đồ hoạt động, viết kịch bản test
+				TC1: Nhập ký tự đặc biệt, click login-> kết quả...
+				TC2: Không nhập gì, click login ->kq.....
+				TC3: Nhập sai u hoặc p hoặc sai cả u,p-> kq....
+				TC4: Nhập u, p-> validate->check user detail-> kqua
+			Dev2: Nhận kq từ dev1-> thiết kế giao diện (mockup, xd, netbean)
+			Dev3: Nhận kq từ dev1-> viết thư viện kết nối, xử lý login, logout
+			Dev4: Nhận kq từ dev3, dev2-> lập trình liên kết thư viện với giao 				diện để thực hiện chức năng đăng nhập
+			Dev5: Nhận kq từ dev1, dev4-> thực hiện test
+			Sau khi dev làm xong, PO cần review kết quả, cập nhật lên báo cáo (trello)
+			Nếu dev chậm tiến độ hoặc không làm thì cần họp với SM để xử lý
+	3. Dev: nhận nhiệm vụ là làm việc. Nếu nhiệm vụ nào không thể hoàn thành trong 2 ngày thì cần thống nhất với PO để chia nhỏ công việc.
+		Sau khi dev làm xong, cần cập nhật công việc lên báo cáo chung, attach file code
+Kết quả WS 1 cần nộp: file word mô tả chi tiết kế hoạch làm việc. Có đầy đủ sơ đồ chức năng đăng nhập.
+Workshop2: Kiểm tra tiến độ ws1, triển khai chức năng SP2 (thêm) -> buổi 4
+	file word mô tả chi tiết kế hoạch làm việc + Có đầy đủ sơ đồ chức năng thêm + attach code
+Workshop3: Kiểm tra tiến độ ws2, triển khai chức năng SP3 (hiển thị)-> buổi 6
+	file word mô tả chi tiết kế hoạch làm việc + Có đầy đủ sơ đồ chức năng hien thi + attach code
+Workshop4: Kiểm tra tiến độ ws3, triển khai chức năng SP4 (sửa)-> buổi 8
+	file word mô tả chi tiết kế hoạch làm việc + Có đầy đủ sơ đồ chức năng sua + attach code
+Workshop5: Kiểm tra tiến độ ws4, triển khai chức năng SP5 (xóa)-> buổi 10
+	file word mô tả chi tiết kế hoạch làm việc + Có đầy đủ sơ đồ chức năng xoa + attach code
+Workshop6: Kiểm tra tiến độ ws5, triển khai chức năng SP6 (Tìm kiếm)-> buổi 12
+	file word mô tả chi tiết kế hoạch làm việc + Có đầy đủ sơ đồ chức năng tìm kiếm + attach code
+Workshop7: Kiểm tra tiến độ ws6, triển khai chức năng SP7 (Thống kê)-> buổi 14
+	file word mô tả chi tiết kế hoạch làm việc + Có đầy đủ sơ đồ chức năng Thống kê + attach code
+Workshop8: Kiểm tra tiến độ ws7, đóng các sprint-> kết thúc dự án-> buổi 16
+	file word mô tả chi tiết kế hoạch làm việc + attach full code
+----
+Thiết kế sơ đồ: https://creately.com/
+Chú ý nộp bài:
+Nộp trên classroom, thời hàn: now+ 24h
+--------
+1.PO
+2.SM
+3.Dev
+4.SP
+5.PB
+6.Daily meeting
+7.Scrum
+8.Agile
+--------
+Kết quả môn: Xây dựng 1 sản phẩm hoàn chỉnh theo qui trình Scrum
+-------------------------------------------------------------------------------------------
+Lý thuyet 2:
+Triển khai kế hoạch lên Trello
+B1- Tạo 1 work-space: chọn kiểu Enginering-IT, add member
+B2- Tạo các board (mỗi board tương ứng với 1 sprint)
+B3- Thêm list: 
+	Product Backlog (danh sách công việc): SM nhận danh sách công việc do PO đề ra, và tạo trên trello
+B4- Add Card (~ 1 công việc cần hoàn thành)
+	1. Member: ai làm việc này
+	2. Check list: yêu cầu sản phẩm phải nộp
+	3. Attachment: Sản phẩm cần nộp sau khi làm xong
+	4. Date: ngày hoàn thành dự kiến
+SM: Người quản lý qui trình, biết ai làm việc, ai không làm, ai làm tốt, ai làm chưa tốt, ai đúng tiến độ, ai không đúng tiến độ
+PO: Định nghĩa ra danh sách công việc (Product Backlog), kiểm tra Dev xem có làm đúng chức năng không
+
+Nộp bài: SM chụp ảnh + download toàn bộ các attachment (file kết quả làm việc của từng thành viên) => zip => Gửi cho tất cả các thành viên => các thành viên đều phải nộp:
+Dev1: Sơ đồ chức năng -> thầy kiểm tra sơ đồ chức năng (~ môn CSDL)
+Dev2: file giao diện -> kiểm tra file giao diện
+Dev3: thư viện -> kiểm tra file thư viện
+Thực tế: SM kiểm soát qui trình; PO: chất lượng sản phẩm ( có hoàn thành như mình định nghĩa không)
+Thầy demo vai trò của từng thành viên
+---------------------------------------------------------------
+Bài 2
+Triển khai kế hoạch tổng thể lên Trello.com
+B1: Tạo workspace, add thành viên (theo email) -> SM
+B2: Tạo các Board (SM)
+B3: Tạo các List (SM)
+B4: Đưa các công việc như thống nhất trong biên bản
+	PO: người định nghĩa ra sản phẩm và các list công việc
+		Sản phẩm có đúng như yêu cầu không?
+	SM: quản lý qui trình
+		- Ai chậm tiến độ, không chậm tiến độ
+		- Ai chất lượng công việc chưa tốt, chất lượng công việc tốt
+	Dev: lập trình + test + cập nhật lên báo cáo (file attach)
+B5: Gán các đầu việc cho Dev (SM làm)
+	- Member: 
+	- Các sản phẩm phải nộp (Check List)
+	- Đặt thời gian (date)
+----
+Thầy demo các vai trò
+DEV1: nộp sơ đồ chức năng, thiết kế db
+Mục tiêu: thiết kế db, giao diện phác thảo trên giấy
+Dev2: Nhận thiết kế db, vẽ giao diện theo thiết kế 
+Dev3: viet thu vien ket noi (ket noi, hien thi du lieu)
+Dev4: Lap trinh chuc nang
+Dev5: Kiem thu(chuc nang hoat dong dung chua? nhap lieu sai khong? hien thi dung khong)
+PO: review lai toan bo san pham cua SP1. Sau khi xác nhận đúng chức năng so với thiết kế
+=> chuyển sản phẩm cho SM
+======
+Workshop2: SM tập hợp sản phẩm của từng thành viên => nén lại thành 1 file .zip => gửi lại cho các thành viên bản cuối cùng => nộp lên classroom
+--------------------------------------------------------------------------------
+Bài 3:
+1. Có thể áp dụng trello trong các lĩnh vực không phải cntt
+2. Ví dụ: Xây dựng học liệu cho môn Lập trình C#3
+3. Ví dụ: Xây dựng cơ sở dữ liệu cho ứng dụng bán hàng
+	thực thể: danh từ + không phải là duy nhất+ độc lập
+	Thực thể:
+	Người dùng
+	Mặt hàng
+	Nhân viên
+	Dơn hàng
+	
+Customer
+	Id, name, address,phone
+Product	
+	prodid, prodName, quantity, price
+User
+	Id, name, address,phone
+Invoice
+	id, date, prodid, price
+----------------------
+4. Xử lý với trường hợp nhóm có bạn vắng mặt hoặc không làm việc.
+5. Nhắc lại 1 số khái niệm
+-------------
+- Scrum Master (SM) (thường là Test, Lập trình): Quản lý qui trình, đánh giá nhân viên,tổ chức làm việc
+- Product Owner (PO): (thường là người quản lý hoặc khách hàng): người định nghĩa ra chức năng sản phẩm (sản phẩm hoạt động như thế nào? hoạt động đúng hay sai): CHịu trách nhiệm về tính đúng, sai của sản phẩm-> review
+- Team: là các lập trình viên, tester thực hiện các công việc trong dự án
+---------------
+- User: người dùng sản phẩm
+- Stakeholders: đội hỗ trợ dự án (có thể là khách hàng)
+- User Story: bản mô tả tóm tắt yêu cầu của khách hàng
+- Point: đơn vị tính (giờ, ngày): dùng để ước lượng thời gian hoàn thành 1 đầu việc
+	100 point: tương đương 100 ngày
+------------------------------------------------------------------------------
+Bài 3:
+- Trello không chỉ sử dụng cho ngành CNTT, có thể dùng để quản lý các dự án ở tất cả các ngành khác
+Ví dụ: Xây dựng CSDL bán hàng
+- 1.1 - Khảo sát và phát biểu yêu cầu
+	- gặp khách hàng
+	- hỏi các yêu cầu hệ thống
+	- đưa ra 1 bài toán
+- 1.2 - Phát hiện các thực thể
+	- Thực thể: danh từ + độc lập + không duy nhất
+		KhachHang
+		MatHang
+		NhanVien
+		DonHang
+		
+- 1.3 - Xây dựng thuộc tính của thực thể
+		KhachHang(id,name,address,phone,email)
+		MatHang(id,name,quantity,price)
+		NhanVien(id,name,address,phone,email)
+		DonHang(id,date,maHang,DonGia,SoLuong)
+- 1.4 - Mô hình hóa sơ đồ thực thể liên kết
+	1 hóa đơn có nhiều mặt hàng và 1 mặt hàng có trong nhiều hóa đơn ->n-n -> hdChitiet
+	1 khách hàng có thể mua nhiều hóa đơn -> 1-n
+	1 nhân viên quản lý nhiều khách hàng-> 1-n
+- 1.5 - Xây dựng CSDL
+-----------
+Ví dụ: Xây dựng slide, lab cho môn Lập trình java3
+1.1 Lên kế hoạch
+1.2. Triển khai kế hoạch
+1.3. Xây dựng slide 1
+1.4. Xây dựng lab 1
+2.1 xây dựng slide 2
+2.2 xây dựng lab 2
+3.1 xây dựng slide 3
+3.2 xây dựng lab 3
+4.1 xây dựng slide 4
+4.2 xây dựng lab 4
+------------
+Khái niệm:
+Nằm ngoài dự án:
+*User - Người sử dụng sản phẩm
+*Stackholders: đội hỗ trợ dự án (khách hàng)
+*User Story: Bản mô tả yêu cầu khách hàng
+*Point: là đơn vị tính (có thể là giờ hoặc ngày)
+vì cần ước lượng thời gian hoàn thành dự án
+	1 sprint cần hoàn thành tối đa là 30 point (30 ngày)
+	1 đầu việc cần hoàn thành tối đa là 2 point
+----
+Trong dự án:
+1. ScrumMaster (SM): (dev, tester): quản lý qui trình, tiến độ dự án, quản lý dev team.
+2. Product Owner (PO): (Quản lý hoặc khách hàng): định nghĩa ra sản phẩm, review sản phẩm, nghiệm thu dự án
+3. Dev Team: lập trình + test
+---
+Các công việc phải làm:
+Đầu dự án: Họp lập kế hoạch
+Hàng ngày: họp 15 phút + làm việc + review
+-----
+Ai có quyền hủy sprint??? PO
+Họp daily meeting?? 15 phút (họp đứng)
+Nhóm scrum tối đa bao nhiêu người? 7 người
+---
+Nguyên tắc scrum??? thực nghiệm - linh hoạt - tự tổ chức - hoàn thành tốt trong thời gian ngắn
+--
+1 sprint tối đa bao nhiêu ngày? 30 ngày
+--
+Leader, projectmanager -> không có
+-----
+Demo:
+SP1: Hiển thị sp
+SP2: Thêm sản phẩm
+- 1.1. Xây dựng thư viện hàm
+- 1.2. Thiết kế giao diện
+- 1.3. Thực hiện chức năng thêm sản phẩm
+- 1.4. Test chức năng
+
+
+--------------------------------------------------------------------------------
+Bài 3:
+- Trello dùng trong mọi lĩnh vực, ngành nghề
+Ví dụ: Thiết kế cơ sở dữ liệu bán hàng
+- 1. Họp kế hoạch
+- 2. Triển khai kế hoạch
+- 3. Khảo sát yêu cầu khách hàng và phát biểu bài toán
+	- Gặp khách hàng
+	- Trao đổi về sản phẩm khách hàng muốn
+	- Lấy các biểu mẫu vật lý (hóa đơn, thoongt tin mặt hàng)
+	- Phát biểu thành 1 yêu cầu bài toán (~ assignment)
+- 4. Phát hiện thực thể
+	Thực thể: danh từ + độc lập + không phải duy nhất
+		KhachHang
+		MatHang	
+		NhanVien
+		DonHang
+- 5. Xây dựng thuộc tính cho thực thể
+	Thuộc tính: danh từ + phụ thuộc + tt cần quản lý
+		KhachHang(maKH,tenKH,diachi,email,phone)
+		MatHang(maSP, tenSP, DonGia,Soluong)
+		NhanVien(maKH,tenKH,diachi,email,phone,chucvu)
+		DonHang(maHD,NgayHD,MaSP,SoLuong)
+	
+- 6. Xây dựng sơ đồ thực thể liên kết (ERD)
+	Don hang-Mat hang: n-n -> tach 2 quan he 1-n -> hoaDonChiTiet
+	KhachHang-NhanVien: 1-n
+	KhachHang-MatHang: HoaDon
+	Them bang TheLoai
+- 7. Xây dựng CSDL
+	SQL
+---------
+Ví dụ: Xây dựng bộ slide, lab cho môn Lập trình Java3
+1. Họp kế hoạch
+2. Triển khai kế hoạch
+3.1 Làm slide1
+3.2 Làm lab1
+4.1 Làm slide2
+4.2 Làm lab2
+5.1 Làm slide3
+5.2 Làm lab3
+6.1 Làm slide4
+6.2 Làm lab4
+7.1 Làm slide5
+7.2 Làm lab5
+--------
+Xử lý khi nhóm có người nghỉ
+-------------
+Khái niệm
+Trong dự án:
+*SM:(dev, tester,...): quản lý qui trình dự án, tiến độ, chất lượng làm việc.
+*PO: (người quản lý, khách hàng): Định nghĩa ra sản phẩm? review xem sản phẩm do đội dev làm
+có đúng với yêu cầu khách hàng không.
+*Team: dev, test
+------
+Ngoài dự án:
+User: người dùng sản phẩm
+Stackholders: đội hỗ trợ dự án (khách hàng)
+User Story: bản mô tả tóm tắt từng yêu cầu của khách hàng
+Point: đơn vị đo thời gian (ngày, giờ)
+Ngày: 1 sprint tối đa 30 point
+	1 đầu việc tối đa 2 point
+------
+Hiểu Scrum?SM
+Hủy sprint? PO
+Daily Meeting? (phân biệt với họp kế hoạch, chỉ họp 1 lần), họp đứng
+Nhóm scrum: 3 người, 7 người
+Sprint? 30 ngày
+--------
+Demo:
+SP1: Hiển thị sản phẩm
+SP2: Thêm sản phẩm
+2.1- Design giao diện
+2.2 - Viết hàm Thêm trong thư viện
+2.3 - Xây dựng chức năng thêm
+2.4 - test
+2.5 - Họp cải tiến sprint
+-------------------------------------------------------------------------------------
+Bài 4: Các biểu mẫu sử dụng trong quản lý dự án
+Qui trình làm dự án:
+1. Các bên liên quan (Scrum Team+ Stackholders) -> Plan Meeting (họp kế hoạch)
+2. Đầu việc toàn bộ dự án (Product Backlog)
+3. Mô tả yêu cầu khách hàng (User Story)
+4. Sơ đồ phân rã chức năng (use case)
+5. Chia công việc thành các sprint (Sprint Backlog)
+------
+6. Đưa nội dung công việc lên Trello, asign cho Scrum team (làm việc)
+	- Daily Meeting (15 phút, trả lời 3 câu hỏi)
+	- làm việc
+7. Test chức năng
+8. Họp cải tiến sprint (Sprint Restrospective)(~1 tháng 1 lần)
+-----
+Chú ý: nội dung 6,7, lặp đi lặp lại theo các sprint
+---
+??? Biểu mẫu (SM làm)
+Sprint1: Them du lieu
+Sprint2: Hien thi du lieu
+Sprint3: Cap nhat du lieu 
+Trên dự của các bạn: chúng ta nên dùng C#2 để thực hiện dự án
+-----------------------------------------------------------------------------
+Bài 4: Thiết kế các biểu mẫu trong dự án Scrum
+Đề tài: Thiết kế hệ thống bán hàng online
+Qui trình làm việc:
+0. Lấy yêu cầu của khách hàng (User Stories)
+1. Họp các bên liên quan: Scum Team + Stackholder + Khách hàng => họp kế hoạch dự án
+	- PO phải định nghĩa ra các chức năng của hệ thống (có khách hàng xác nhận)
+	- SM: lập kế hoạch (deadline của các Sprint)
+	Chú ý: phác thảo trên giấy, ghi thành văn bản word
+2. SM list các danh mục công việc cần thực hiện
+3. Đưa danh mục công việc lên trello và phân công cho dev, test
+----
+4. Hàng ngày: Họp( daily meeting) + phát triển chức năng + test chức năng
+5. Khi kết thúc sprint, họp cải tiến spint (Sprint Restrospective)
+----
+
+Thiết kế biểu mẫu:
+Demo: Quản lý sản phẩm
+1. Thiết kế giao diện 
+2. Định nghĩa DefaultTableModel
+3. Hiển thị dữ liệu
+4. Thêm dữ liệu
+5. Sửa dữ liệu
+	- Lấy dữ liệu từ dòng trên JTable -> textbox => sự kiện click jtable
+	- đưa dữ liệu vào model (ở sự kiện click của button Save)
+6. Xóa dữ liệu
+	- lấy id
+	- xóa trong model
+---------------------------------------------------------------------------
+Bài 5 - Sơ đồ
+1. Sơ đồ Use Case (~ sơ đồ chức năng tổng thể của hệ thống)
+	https://www.diagrameditor.com/
+2. Sơ đồ chi tiết hoạt động của chức năng 
+3. Biểu đồ Burndown (Burndown chart): Chỉ ra còn bao nhiêu thời gian nữa để hoàn thành công việc:
+	- Ghi lên bảng bằng bút dạ
+	- Đặt ở cửa phòng để lúc nào cũng nhìn thấy
+	- SM làm việc này
+	- Lấy số liệu từ cuộc họp Daily meeting + Trello
+	- Cập nhật sau khi họp Daily meeting
+=> Theo dõi tiến độ làm việc
+- Của cả nhóm: làm 1 tờ A0
+- Của từng thành viên: A4
+=> Trên bảng treo ở phòng sẽ có 1 tờ A0: ghi tiến độ của nhóm
+					5 tờ A4: ghi tiến độ của từng thành viên
+=> Bảng đặt ở vị trí ai cũng nhìn thấy
+Có thể tạo trên Trello:
+https://trello.com/power-ups/5eda444d3be9d07a01eb82a4/burndown-charts-by-corrello
+4. Họp tổng kết, cải tiến Sprint: Sprint Retrospective
+Demo: Xây dựng chức năng quản lý sản phẩm bằng DataBinding (không cần code)
+1.1 Chọn Datasource
+1.2 Kết nối với CSDL
+1.3. Lấy dữ liệu từ các bảng
+1.4: ĐƯa dữ liệu lên Datagridview và lên các textbox
+1.5 Xử lý cập nhật dữ liệu baengf BindingNavigator
+------------------------------------------------------------------------------
+Assignment:
+Đội dự án:	Khách hàng
+Sprint1
+Sprint2
+		Nghiệm thu lần 1(Asm giai đoạn 1) -> 30%
+			- Tài liệu (Product Backlogs, Biên bản cuộc họp, sơ đồ thiết kế)
+			- Sản phẩm : code (code + video demo)
+Sprint3
+Sprint4
+Sprint5
+Sprint6
+Sprint7
+		Nghiệm thu lần 2 (Asm giai đoạn 2) -> 30%
+Sprint8
+		Nghiệm thu lần 3 (Hoàn thiện) -> 30%
+		Sau 6 tháng		     -> 10%
+-------------
+Bài 5: Thiết kế sơ đồ
+
+1. Sơ đồ chức năng tổng thể của hệ thống (use case diagram)
+	- liệt kê chức năng chính và chức năng con (nếu có)
+2. Sơ đồ hoạt động chi tiết của chức năng (activity diagram) hoặc sơ đồ khối: 
+	ví dụ Đăng nhập
+Tóm lại: Cần 2 sơ đồ: sơ đồ chức năng tổng thể + sơ đồ chi tiết của chức năng
+3. Biểu đồ burndown (burndown chart) -> 
+	theo dõi tiến độ dự án, theo dõi hoạt động của từng thành viên
+	- Biểu đồ burndown chart của cả nhóm: dùng giấy A0 -> viết bằng bút dạ
+	- Biểu đồ burndown chart của từng thành viên: A4
+	- Tất cả cùng được dán lên bảng đặt ở trước cửa ra vào phòng làm việc
+	 (kiểm tra tiến độ từng thành viên)
+https://trello.com/power-ups/5eda444d3be9d07a01eb82a4/burndown-charts-by-corrello
+---
+Các biểu mẫu:
+1. ProductBacklog
+2. Sprint Backlog
+3. Daily Meeting
+4. Test case
+Biểu đồ, sô đồ
+1. sơ đồ chức năng tổng thể (use case)
+2. Sơ đồ chức năng chi tiết (sơ đồ khối, activity)
+3. Biểu đồ theo dõi tiến độ (burndown chart)	
+Demo: Chuyển dữ liệu dạng mảng -> CSDL	
+------------------------------------------------------------------------------------
+Bài 5 - Thiết kế các sơ đồ:
+1. Sơ đồ chức năng tổng thể của hệ thống (mô hình hóa Product Backlogs) (Use case)
+2. Sơ đồ hoạt động chi tiết của chức năng (activity, sơ đồ khối)
+3. Biểu đồ Burndown (Burndown chart): theo dõi tiến độ dự án
+	- Cần dán lên bảng trước cửa phòng (ai cũng nhìn thấy)
+	- Viết bằng bút dạ trên giấy A0 (biểu đồ nhóm)
+	- Viết bằng bút dạ trên giấy A3 hoặc A4 (biểu đồ thành viên)
+
+----
+Các biểu mẫu:
+1. Product Backlogs
+2. Sprint Backlogs
+3. Daily Meeting
+4. Testcase
+Các sơ đồ, biểu đồ
+5. Sơ đồ tổng quan hệ thống
+6. Sơ đồ chi tiết chức năng
+7. Burndown chart
+Demo: 
+Đọc dữ liệu từ Database
+
+Assignment : Xây dựng ứng dụng......
+Scrum Team		Khách hàng
+Sprint1
+Sprint2
+			(Asm1) Nghiệm thu lần 1 (Review SP1->SP2): 30% 
+			- Tài liệu (ProductBacklog, daily meeting) (excel, word)
+			- Code:(code, video)
+Sprint3
+Sprint4
+Sprint5
+Sprint6
+Sprint7
+			(Asm1) Nghiệm thu lần 2 (Review SP1-> SP7L: Sự kết nối hài hòa các SP): 30
+Sprint8
+			(Asm1) Nghiệm thu lần 3 (Review toàn bộ sản phẩm: SP1->SP8): 30%
+			Sau 6 tháng không lỗi:		10%
+-------------------------------------------------------------------------------------
+Bài 6 - Xây dựng báo cáo khi hoàn thiện dự án
+1. Các bên liên quan (SM)
+2. User Stories (Mô tả CÁC yêu cầu của khách hàng)(PO)
+3. Product Backlog (danh sách công việc cần làm trong toàn dự án)(SM)
+4. Use case (Sơ đồ tổng thể của dự án)(SM)
+5. Sprint Backlog (danh sách công việc trong 1 sprint)(SM)
+6. Qui trình làm việc (1->2->3....->Kết thúc)(DEV)
+7. Lập trình(DEV)
+8. Test, Review (PO)
+9. Sprint Retrospective(SM)
+10. demo sản phẩm(dev)(ai làm phần nào nói phần đó)
+
+Thi: Thi theo nhóm, cả nhóm trình bày 1 slide
+
+
+
+
+
+-----------------------------------------------------------------
+Bài 6 - Tạo báo cáo (khi bảo vệ project)
+https://docs.google.com/presentation/d/1WGWnHYFqizltGK1sPXGBC1miNvypfQ6DnwmGTjKhIN4/edit#slide=id.p
+https://github.com/hungnttg/QUanLyDuAn/blob/main/Bao%20cao%20Du%20An%20Agile.pptx
+
+1. Các bên liên quan đến dự án (SM)
+2. Mô tả các yêu cầu của khách hàng (User Stories)(PO)
+3. Danh sách công việc cần làm trong dự án (Product Backlog)(SM)
+4. Sơ đồ dự án (Chức năng của hệ thống, sơ đồ khối của từng chức năng nhỏ)(use case, activity)(SM)
+5. Danh sách công việc trong 1 sprint (Sprint Baclog)(SM)
+6. Qui trình làm việc (SM)
+	họp -> làm -> họp->...
+7. Xây dựng project (DEV)
+	- Phân công công việc trên Trello
+	- Chức năng A: Dev1
+		- Thiết kế giao diện
+		- Viết các module
+		- ......
+	- Chưc năng B: Dev2
+		-.....
+8. Test, Review (PO)
+	Test case, bản mô tả bằng lời để đối chiếu
+9. Họp cải tiến trong các sprint sau (Sprint Retrospective)(SM)
+10. demo sản phẩm (Dev)
+------
+BẢO VỆ: 
+- DÙNG 1 SLIDE VỚI 10 MỤC TRÊN
+- Cả nhóm cùng trình bày
+- mỗi người trình bày phần việc mình đã làm (ghi trên slide)
+- Mỗi người 5 phút (=> 30 phút 1 nhóm)
+-----
+
+Khảo sát -> user story: mô tả bằng lời
+-> user story -> product backlogs -> print backlogs
+---------------------------------------------------------------------------------------
+Bài 4 - Biểu mẫu
+Bài 5- Sơ đồ
+Bài 6- Báo cáo
+Xây dựng báo cáo -> khi kết thúc dự án báo cáo 
+	- Giám đốc
+	- Khách hàng
+-> sau khi báo cáo kết thúc
+-> KHách hàng có ý kiến 
+-> tiếp tục sửa
+-> khách hàng ok -> triển khai trên hệ thống của khách hàng
+-> Đối với môn học: Ta dùng luôn báo cáo này khi thi
+ - Làm 1 slide chung cho cả nhóm
+ - Mỗi người trình bày phần việc mình làm (~ 5 phút )
+=> cả nhóm ~ 30 phút
+-----
+Nội dung slide:
+1. Các bên liên quan (SM)
+2. Các yêu cầu của khách hàng(dưới góc độ của người dùng) (User Stories)(PO)
+3. Danh sách công việc(dưới góc độ của người thiết kế hệ thống)(Product Backlogs)(SM)
+4. Sơ đồ hệ thống (chức năng tổng thể, sơ đồ chi tiết)(Diagram)(SM)
+5. Sprint Backlogs (chia công việc vào các sprint, gán cho người lập trình)(SM)
+6. Qui trình làm việc (SM)
+7. Lập trình ứng dụng (DEV): ai làm phần nào trình bày phần đó
+8. Test, Review (PO)
+9. Họp cải tiến chức năng, rút kinh nghiệm (Sprint Retrospective)(SM)
+10. Demo sản phẩm (DEV)
+	
+Môn Quản lý dự án: 
+- Qui trình làm việc
+- Tiến độ làm việc
+- Sản phẩm
+-------------------------------------------------------------------------------------
+Bài 7 - Xây dựng yêu cầu
+* Có những loại cuộc họp nào????
+Phân biệt: Họp cải tiến sprint và họp sơ kết sprint
+Cải tiến: Tìm ra giải pháp cho Sprint tiếp theo
+Sơ kết: Đánh giá lại các công việc, thành viên đã làm trong sprint
+- Planning meeting (họp kế hoạch dự án, họp đầu dự án)
+- Daily meeting (họp hàng ngày để cập nhật trạng thái làm việc)
+- Họp cải tiến sprint (Sprint Retrospective, khi hết thúc sprint)
+---------
+* Product Backlogs: danh sách tính năng sản phẩm xây dựng bởi PO (ở góc nhìn người dùng)
+PB xây dựng dựa vào User Stories (Yêu cầu người dùng, được làm bởi PO)
+* Sprint Backclogs: Tác vụ được thực hiện trong phần mềm = Product backlogs được làm mịn, được mô tả cụ thể dưới góc độ kỹ thuật, có gắn với Người Phát triển, thời gian phát triển, mô tả kỹ thuật, gắn với Sprint (SM)
+* 1 Sprint: 1->4 tuần
+------
+Xây dựng yêu cầu của phần mềm quản lý đặt phòng khách sạn
+Nguyên tắc: Đi từ lớn đến nhỏ, từ tổng quan đến chi tiết
+Rừng(1) -> cây(sprint) -> cành-> lá (thêm, sửa, xóa, hiển thị) (4 level)
+--------------------(rừng)
+1. Xây dựng phần mềm đặt phòng khách sạn (sản phẩm) (PO)
+----(cây)
+1.1- Quản lý phòng (sprint1)
+1.2- Quản lý người dùng(sprint2)
+1.3- Quản lý đặt phòng(sprint3)
+---(cảnh)
+1.1.1. Quản lý danh mục phòng (list)
+1.1.2. Quản lý chi tiết phòng phòng(detail)
+---
+1.2.1. Quản lý người dùng mới
+1.2.2. Quản lý người dùng hiện tại
+--
+1.3.1. Kiểm tra trạng thái các phòng
+1.3.2. Quản lý Đặt phòng
+---(lá)
+1.1.1.1. thêm phòng vào list
+1.1.1.2. sửa phòng
+1.1.1.3. xóa phòng khỏi list
+--
+1.1.2.1. Thêm chi tiết cho phòng
+1.1.2.2. Sửa chi tiết cho phòng
+1.1.2.3. Xóa chi tiết cho phòng
+--
+1.3.1.1. Thêm phòng
+1.3.1.2. Xóa phòng
+1.3.2.1. Sửa hóa đơn
+1.3.2.2 Hủy hóa đơn
+2. Ước lượng yêu cầu (SM)
+- Để tính ra men/month -> tính tiền -> ước lượng giá trị của dự án = tiền
+10 men/month: 10 người/1tháng
+Max salary: 10M -> Tiền lương: 10(tr)x10(nguoi)x4(sprint) = 400M
+Quản lý rủi ro: 400Mx1.5 = 600M
+Nguyên tắc: cần đưa ra giá cao hơn mình dự kiến -> để khi đàm phán, khách hàng sẽ down giá xuống
+---
+Để ước lượng yêu cầu, ta dựa vào 4 yếu tố:
+- Giao diện
+	Giao diện rõ ràng: 1 (point)
+	Giao diện động: 2(point)
+	Giao diện tương tác: 3(point)
+- Số lượng qui tắc nghiệp vụ
+	Chỉ có 1 qui tắc: 1 (point)
+	Có từ 1-> 3 qui tắc: 2(point)
+	Nhiều hơn 3 qui tắc: 3(point)
+- Số thực thể (bảng dữ liệu) của User Story
+	1 bảng: 1 (point)
+	1-> 3 bảng: 2 (point)
+	> 3 bảng: 3 (point)
+- Thao tác thêm, sửa, xóa, hiển thị
+	Hiển thị, xóa: 1 (point)
+	Thêm dữ liệu: 2 (point)
+	Sửa dữ liệu: 3 (point)
+===> Ví dụ: Chức năng thêm phòng cần bao nhiêu ngày để thực hiện???? (8 ngày)
+	3
+	2
+	1
+	2
+------------------------------------------------------------------------------
+Bài 7: Xây dựng yêu cầu (cần thực hiện khi khảo sát hệ thống-> thực hiện với khách hàng)
+-B4- biểu đồ
+-B5- Biểu mẫu excel
+-B6- Báo cáo
+---Nhắc lại kiến thức:
+Các loại cuộc họp:
+	- 1. Họp kế hoạch dự án (lộ trình làm dự án)
+	- 2. Daily meeting (các cá nhân làm gì? deadline)
+	- 3. Họp sơ kết sprint (Sprint Retrospective) (đánh giá tốt, chưa tốt, khắc phục ở sprint tiếp theo)
+	- 4. Tổng kết dự án (đánh giá tổng thể kết quả đạt được; sản phẩm?? công việc của dev, po, sm)
+---
+Product Backlogs: Danh sách chức năng được MÔ TẢ bở PO dưới goc nhìn của khách hàng
+PB được xây dựng dựa vào Yêu cầu của khách hàng (User Stories, làm bởi PO)
+--
+Sprint Backlogs: là Products Backlog được làm mịn dưới góc độ kỹ thuật, thể hiện ai sẽ làm gì, deadline, có mô tả kỹ thuật
+=> SP là tác vụ cụ thể trong phần mềm
+1 sprint ~ 1->4 tuần
+------------
+Xây dựng yêu cầu khách hàng cho phần mềm Quản lý đặt phòng khách sạn
+(PO gặp gỡ khách hàng Stackholders để lấy yêu cầu)
+Nguyên tắc: Đi từ tổng quan đến chi tiết
+Rừng(1)-> cây (sprint) -> cành -> lá (thêm, sửa, xóa, hiển thị)=> 4 level
+Level1(Rừng): Phần mềm Quản lý đặt phòng khách sạn
+Level2(Cây-Sprint):
+	1. Quản lý phòng (sprint1)
+	2. Quản lý người dùng (sprint2)
+	3. Quản lý đặt phòng (sprint3)
+Level3(Cành-chức năng nhỏ của cây)
+	1.1. Danh mục phòng (list)
+	1.2  Chi tiết phòng (detail)
+	--
+	2.1. Quản lý người dùng mới
+	2.2. Quản lý người dùng hiện tại
+	--
+	3.1 Kiểm tra trạng thái các phòng
+	3.2. Quản lý đặt phòng
+Level4(Lá-Thêm,sửa, xóa, hiển thị)
+	1.1.1- Thêm vào danh mục phòng
+	1.1.2- Sửa vào danh mục phòng
+	1.1.3. Xóa phòng trong danh mục
+	--
+	1.2.1. Hiển thị chi tiết phòng
+	1.2.2. Thêm chi tiết phòng
+	1.2.3. Sửa chi tiết phòng
+	1.2.4. Xóa chi tiết phong
+	---
+	2.1.1 - Thêm người dùng mới
+	2.1.2 - Sửa người dùng mới	
+	2.1.3 - Xóa người dùng mới
+
+	2.2.2 - Sửa người dùng hiện tại	
+	2.2.3 - Xóa người dùng hiện tại
+	---
+	3.1.1 - check phòng trống, phòng không trống
+	3.1.2 - hiển thị phòng trống
+	3.2.1 - Thêm hóa đơn
+	3.2.1 - Sửa hóa đơn
+	3.2.3 - Inactive hóa đơn
+---------
+2. Ước lượng yêu cầu (SM): dựa vào số lượng yêu cầu để tính ra thời gian (số ngày, số giờ) cần làm cho dự án.
+Ước lượng yêu cầu dựa vào 4 yếu tố:
+	A- Giao diện phần mềm
+		Rõ ràng:   1 (point)
+		Động:	   2 (point)
+		Tương tác: 3 (point)
+	B - Số lượng qui tắc nghiệp vụ
+		1 qui tắc:  		1(point)
+		1-> 3 qui tắc:		2(point)
+		>3 qui tắc:		3(point)
+	C - Số bảng dữ liệu
+		1 bảng:			1(point)
+		1->3 bảng		2(point)
+		>3 bảng			3(point)
+	D - Thao tác thêm, sửa, xóa, hiển thị
+		HIển thị, xóa: 1(point)
+		Thêm		2(point)
+		Sửa		3(point)
+=> tính được thời gian cần làm cho 1 đầu việc => sprint => dự án
+Ví dụ:
+Ước lượng yêu cầu cho chức năng thêm phòng
+- Giao diện: 		=>	3 (point)
+- Số qui tắc nghiệp vụ là 3 => 	2 (point)
+- Số bảng dữ liệu 1	    =>  1(point)
+- Thêm, sửa, xóa			3(point)
+=> 8 point
+GIả sử tổng dự án = 500 point ~ 500 ngày ~ tháng ~ 23 tháng/1 người	
+=> 23 men/month
+=> thời gian hoàn thành: 2.3x1.5 = 
+
+
+3. Ước lượng tiền => để tính tiền cho dự án (SM)
+Tính theo men/month (người làm/ tháng)
+Ví dụ:10 người/tháng
+Max Salary: 15tr
+=> 1 tháng cần 15*10 = 150
+=> 1 tháng * số sprint => 150*3 = 450tr
+Công thức:
+Max Salary x số người X số Sprint x hệ số chậm tiến độ = Tiền dự án
+Hệ số chậm tiến độ: 1.5
+=> 450x1.5 = 675 triệu
+=> 585tr -> 675 tr
+-----------------------------------------------------------------------------------
+Bài 7 - Xây dựng yêu cầu khách hàng (làm trước khi bắt đầu dự án)
+Ai? PO
+PO làm việc với Stackholders => yêu cầu khách hàng
+Cách xây dựng: Tổng quan đến chi tiết
+4 level: Rừng(1)-> cây(2- Sprints)->Cành(3-Chức năng con)->Lá(4-Thêm, sửa, xóa, hiển thị)
+Ví dụ:
+Xây dựng yêu cầu của phần mềm quản lý đặt phòng khách sạn
+1. Xây dựng yêu cầu (PO)
+2. Tổng thời gian làm dự án (point)(SM)
+3. Tính tiền cho dự án(SM)
+----
+Level1:- Phần mềm quản lý đặt phòng khách sạn
+---
+Level2(cây-chức năng)
+	1. Quản lý phòng (Sprint1)
+	2. Quản lý người dùng(sprint2)
+	3. Quản lý đặt phòng(sprint3)
+---
+Level3(cành-chức năng con của cây)
+	1.1-Quản lý danh sách phòng (list) -> 7 point
+	1.2-Chi tiết phòng (detail) -> point-
+	2.1 - Quản lý người dùng mới
+	2.2 - Quản lý người dùng hiện tại
+	3.1 - Quản lý trạng thái các phòng
+	3.2 - Quản lý đặt phòng
+---
+Level4(tác vụ của chức năng con:thêm, sửa, xóa, hiển thị)
+	1.1.1 - Thêm phòng vào list
+	1.1.2 - Sửa phòng trong list
+	1.1.3 - Xóa phòng trong list
+
+	1.2.1 - Thêm chi tiết vào detail
+	1.2.2 - Sửa chi tiết trong detail
+	1.2.3 - Xóa chi tiết trong detail
+
+	2.1.1 - Thêm người dùng mới
+	2.1.2 - Sửa người dùng mới
+	2.1.3 - Xóa người dùng mới
+
+	2.2.1 - Thêm người dùng hiện tại
+	2.2.2 - Sửa người dùng hiện tại
+	2.2.3 - inactive người dùng hiện tại
+
+	3.1.1 - Check trạng thái phòng còn trống, không trống
+	3.1.2 - Cập nhật trạng thái phòng
+
+	3.2.1 - Thêm hóa đơn
+	3.2.2 - Sửa hóa đơn
+	3.2.3 - Inactive hóa đơn
+
+
+
+2. Ước lượng point (thời gian)
+Dựa vào 4 yếu tố
+	A- Giao diện:
+		Rõ ràng:	1(point)
+		Động: 		2(point)
+		Tương tác:	3(point)
+	B - Số lượng qui tắc nghiệp vụ
+		Chỉ có 1 qui tắc:		1(point)
+		Có 1-> 3 qui tắc:		2(point)
+		>3 qui tắc:			3(point)
+	C - Số lượng bảng dữ liệu (thực thể)
+		1 thực thể			1(point)
+		1->3 thực thể			2(point)
+		>3 thực thể			3(point)
+	D - thao tác thêm, sửa, xóa, hiển thị
+		Thêm,sửa,xóa, hiển thị:		3(point)
+		3/4				2(point)
+		2/4				1(point)
+Ví dụ:
+Xây dựng server, tạo database:
+	Giao diện: 3
+	Nghiệp vụ: 1
+	Thực thể:  2
+	Thao tác:  2
+Tổng = 8point(~8 ngày)
+------
+Danh sách phòng
+	Giao diện: 3
+	Nghiệp vụ: 1
+	Thực thể:  1
+	Thao tác:  2	
+Tổng=7 point (~7 ngày)
+--
+Tìm kiếm phòng:
+	Giao diện: 3
+	Nghiệp vụ: 1
+	Thực thể:  1
+	Thao tác:  1
+Tổng = 6 (point)
+=> cộng tất cả các point => tổng số point (tổng thời gian xây dựng dự án)
+Ví dụ: 500 point => cần tối thiểu 500 point
+--------
+3. Tính tiền cho dự án
+Công thức tính:
+500 point ~ 500 ngày công của người có mức lương cao nhất
+~ 500/22 = 22.72 tháng của 1 người
+Ví dụ: mức lương cao nhất: 15tr
+Tổng tiền: 22.72 tháng x 15(lương) x 1.5(chậm tiến độ) = 511tr
+Mức tối thiểu: 22.72 x 15 (luong) x 1.3(chậm tiến độ) = 443tr
+------
+Xem phòng
+	Giao diện: 1
+	Nghiệp vụ: 1
+	Thực thể:  1
+	Thao tác:  1
+Xem phòng = 4point
+--
+Xóa phòng:
+	Giao diện: 0 (không phải xây dựng)
+	Nghiệp vụ: 0 (đã thực hiện nghiệp vụ ở phần khác)
+	Thực thể:  0 (đã thiết kế)
+	Thao tác:  1
+Xóa phòng = 1 point
+----------------------------------------
+4. Họp kế hoạch (sau khi đã ký hợp đồng)
+	- Chuyển từ User Stories -> Product Backlog sau cuộc họp
+	Có bao nhiêu loại cuộc họp:
+	* họp kế hoạch (1buổi)
+	* Daily Meeting (việc làm theo ngày)(=số point/số người)
+	* Sprint Retrospective (họp cải tiến ở sprint sau)(= số sprint)
+	* họp tổng kết dự án (1 buổi)
+5. Product backlogs (tính năng): mô tả chức năng ở góc độ người dùng (phi kỹ thuật)
+6. Sprint backlogs (tác vụ): product backlog đã được làm mịn, đã được mô tả dưới dạng thao tác kỹ thuật, có gắn với người lập trình, thời gian hoàn thành, ....
+7. Đưa kế hoạch lên trello (công cụ quản lý)
+8. Sprint có thời gian từ 1->4 tuần
+9. Theo dõi tiến độ và chất lượng dự án qua trello, các sản phẩm demo, burndown chart
+10. kết thúc sprint -> họp sprint retrospective -> cải tiến cho sprint sau
+11. thực hiện tương tự từ 6->10
+12. báo cáo sản phẩm làm được cho công ty và khách hàng (thi)
+13. run production trên máy khách hàng (triển khai sản phẩm trên máy khách hàng)
+14. cử 1 dev onsite ở công ty khách hàng (maintain)
+15. Sau 6 tháng -> kết thúc maintain -> hoàn thành dự án
+-------
+Tiến độ thực hiện và thanh toán hợp đồng
+1. 3 giai đoạn
+Giai đoạn 1: kết thúc 30% (thu 30% giá trị hợp đồng) -> asm giai đoạn 1
+Giai đoạn 2: xong 70% (thu tiếp 30% giá trị hợp đồng) -> bài asm giai đoạn 2
+Giai đoạn 3: xong 100% (thu 30% giá trị hợp đồng)
+Sau khi maintain xong -> thu 10% còn lại
+
+------------------------------------------------------------------------------------------
+Bài 7 - 
+7.1-Lấy yêu cầu khách hàng (PO-Stackholder)
+7.2 - Tính tổng point (biết thời gian làm xong dự án)
+	Giao diện, Qui tắc nghiệp vụ, Số lượng thực thể, Thêm+sửa+xóa+hiển thị
+7.3 - Tính được tiền làm dự án
+Bài 8 - Ảnh hưởng của môi trường đến dự án (ED)-> cần nghiên cứu để hiệu chỉnh point
+Tại sao phải nghiên cứu??? Để hiệu chỉnh số point (0->2)
+Ví dụ: Cài đặt công cụ??
+	Nghiên cứu công nghệ??? +point
+Các khía cạnh ảnh hưởng
+1- Tổ chức
+	- Đã quen với Scrum chưa?Ok-Not OK		0	1(point)
+	- Phòng ban khác có chống đối scrum không?	0	1
+	- Có sự hỗ trợ scrum từ các khòng ban không?	0	1
+2- Hạ tầng
+	- Có kiểm thử tự động chưa?			0	1
+	- Có kiểm thử tích hợp không?			0	1
+	- Phần mềm đã cài đặt đầy đủ chưa		0	1
+3- Nhóm
+	- Nhóm có đủ không?				0	Qui đổi lại
+	- Lần đầu áp dụng Scurm?				0	1
+	- Các thành viên trong nhóm có hợp tác không?	0	1
+4- Công nghệ
+	- Nhóm đã từng làm với công nghệ này chưa?	0	2
+	- NHóm có thành thạo Ngôn ngữ này chưa?		0	2
+5- Qui trình
+	- Công ty có làm việc theo Scrum không?		0	1
+	- Cả nhóm đã từng làm việc với Scrum?		0	1	
+6- Nghiệp vụ
+	- Nhóm đã hiểu nghiệp vụ chưa?			0	1->2
+---> Sau khi đã xét đến khía cạnh môi trường, thì ta cần hiệu chỉnh tổng số point làm dự án
+--->
+ED<=11:     Khó thực hiện đúng tiến độ
+ED<=12->23: bình thường.    		(hệ số 1)	
+ED<=24->36: Khả năng đúng tiến độ cao	(hệ số 1/2)(vì số point quá lớn->tổng tiền tăng)
+----->Hiệu chỉnh số điểm ảnh hưởng của môi trường
+Tính toán điểm đã hiệu chỉnh (AP)
+Điểm chưa hiệu chỉnh: (UP)
+=> AP = UP * hệ số
+Ví dụ: Chức năng thêm phòng khách sạn:
+		Giao diện			1
+		Qui tắc nghiệp vụ		2
+		Số lượng thực thể		1
+		Thêm+sửa+xóa+hiển thị		3
+		Tổng = 7(point)
+	------
+		Tổ chức: 	0
+		Hạ tầng: 	3
+		NHóm:	 	4
+		Công nghệ:	4
+		Qui trình: 	0
+		NGhiệp vụ:	4
+		ED=15 (hệ số = 1)
+	------
+		Tính toán điểm hiệu chỉnh:
+		Điểm hiệu chỉnh = (7 x 15)/36 = 2.91
+	=> Số ngày thực tế cần để hoàn thiện chức năng là: 7+2.91 = 9.91(point)
+----------------------------------------------------------------------------------------------------
+Bài 8 - 
+7.1-Lấy yêu cầu khách hàng (PO-Stackholder)
+7.2-Tính tổng số point (thời gian làm dự án)=> tính tiền
+	Giao diện
+	Qui tắc nghiệp vuk
+	Số lượng thực thể
+	Thao tác (thêm, sửa, xóa, hiển thị)
+=> Hiệu chỉnh thời gian để cho chính xác hơn
+=> có ảnh hưởng bởi môi trường (làm việc)
+=> hiệu chỉnh
+Bài 8 - Hiệu chỉnh point do ảnh hưởng của yếu tố môi trường (ED)
+	- Các yếu tố môi trường ảnh hưởng đến dự án: 0->2
+	0: không bị ảnh hưởng
+	2: ảnh hưởng lớn
+1. Tổ chức (0->6)
+	- Tổ chức đã quen với Scrum	0(đã quen)	1(mới làm)	2(chưa bao giờ)
+	- Phòng ban khác ủng hộ hay chống đối?		0 	1
+	- Có sự hỗ trợ scrum từ phòng ban khác không?	0	1
+2. Hạ tầng(0->6)
+	- Có kiểm thử tự động chưa?	0	1	2
+	- Có kiểm thử tích hợp không? 	0	1	2
+	- Phần mềm cài đặt đầy đủ chưa?	0	1	2
+3. Nhóm (0->6)
+	- NHóm có đủ người không?	0	Qui đổi
+	- Lần đầu áp dụng Scrum?		0	1	2
+	- Các thành viên trong nhóm có hợp tác? 0	1	2
+4. Công nghệ (0->6)
+	Nhóm đã từng làm với công nghệ này chưa? 2	1	0
+	Độ thành thạo NNLT của thành viên?	2	1	0
+	Đánh giá công nghệ áp dụng trong dự án?	2	1	0
+5. Qui trình
+	- Cả công ty có làm việc theo qui trình scrum?	0	1	2
+6. Nghiệp vụ
+	Nhóm đã hiểu nghiệp vụ chưa? 0	1	2
+---- Tối đa 36 điểm
+Mức 1:	0->11 		    -> Khả năng chậm tiến độ cao
+Mức 2: 12->23 (bình thường) -> khả năng đúng dealine cao -> hệ số 1
+Mức 3: 24->36		    -> Khả năng xong trước thời hạn cao -> hệ số 1/2
+(bởi vì point tăng thì tiền tăng -> khó ký hợp đồng)
+-------------------------
+Ví dụ:
+Chức năng thêm phòng khách sạn:
+1. Tính point
+	Giao diện: 	1
+	Qui tắc nghiệp vụ: 2
+	Số lượng thực thể: 1
+	Thêm, sửa, xóa, hiển thị: 3
+	=> tong: 7
+2. Hiệu chỉnh point
+	Tổ chức: 0
+	Hạ tầng: 3
+	Nhóm: 4
+	Công nghệ: 4
+	Qui trình: 0
+	Nghiệp vụ: 2
+	-> tổng hiệu chỉnh: 13
+	-> tính toán ra point cụ thể: 
+	Điểm hiệu chỉnh = (ĐIểm tính toán x Hiệu chỉnh)/36
+	Điểm hiệu chỉnh = (7 x 13)/36 = 2.53
+3. Điểm sau hiệu chỉnh: 7 + 2.53 = 9.53 (point)
+Cuối cùng: Thành lập bảng Tổng point (ma trận ước tính tổng thể)
+------
+Thực hành 8:
+	- Chuẩn bị sản phẩm bàn giao cho khách hàng
+		(Project code + Tài liệu hướng dẫn sử dụng)
+	- Họp tổng kết dự án
+		- Đánh giá sản phẩm hoàn thiện ở mức độ nào (chức năng)
+		- Thời hạn hoàn thành chung đạt mức độ nào (deadline)
+		- Thành viên (thành viên xuất sắc)-> xét tăng lương, hệ số hoàn thành công việc
+		- Thành viên cần phát triển thêm
+Biểu mẫu: Giống biểu mẫu họp buổi đầu tiên
+--------
+	SM nên đưa ra 1 giải pháp về lương để thúc đẩy làm việc
+	- Lương hàng tháng của tất cả các thành viên: =Lương thực tế * 0.9
+	=> dư ra số tiền = tổng lương * 0.1
+	- Sau khi tổng kết dự án: 
+		hệ số hoàn thành công việc: 1 (nhận lại 10% lương)
+		Hệ số hoàn thành công việc: 0.9 => không nhận lại gì
+		Hệ số hoàn thành công việc: 1.1 => nhận lại 10% lương đã bỏ ra từ đầu dự án
+				+ 10% lương của người có hệ số 0.9
+---------------------
+	Cách 2: Vẫn nhận đủ 100% -> phải có quĩ dự trữ
+			0.9 -> Không nhận tháng lương 13
+			1.0 -> 1/2
+			1.1 -> 1
+
+
+			
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
