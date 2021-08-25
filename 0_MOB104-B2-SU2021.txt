@@ -1297,12 +1297,102 @@ Biểu mẫu: Giống biểu mẫu họp buổi đầu tiên
 			0.9 -> Không nhận tháng lương 13
 			1.0 -> 1/2
 			1.1 -> 1
-
-
+---------------------------------------------------------------------------------------------------------
+Bài 8 - 
+7.1- Lấy yêu cầu khách hàng (PO-stackholder)
+7.2- Tính tổng số point (thời gian dự kiến làm dự án) => chưa hiệu chỉnh
+	- Giao diện
+	- Số qui tắc nghiệp vụ
+	- Số thực thể
+	- Thao tác: thêm, sửa, xóa, hiển thị
+Bài 8 - Xem xét ảnh hưởng của môi trường đến dự án => tổng point ảnh hưởng (SM)
+=> Số point thực tế = Số point chưa hiệu chỉnh + tổng point ảnh hưởng;
+Khía cạnh ảnh hưởng của môi trường (ED)
+1. Công ty (0->6)(hiểu biết)
+	Công ty đã hiểu biết về Scrum? 			0	1	2
+	Các phòng ban có chống đối việc sử dụng Scum?	0	1	2
+	Có sự hỗ trợ srum từ phòng ban khác không?	0	1	2
+2. Hạ tầng (test) (0->6)
+	Đã triển khai kiểm thử tự động chưa? 		0	1	2
+	Đã triển khai kiểm thử tích hợp chưa?		0	1	2
+	Phần mềm đã cài đặt đầy đủ chưa?			0	1	2		
+3. Nhóm (áp dụng trong nhóm)
+	Nhóm có đủ người không?				0	1	2
+	Lần đầu áp dụng scrum?				0	1	2
+	Các thành viên trong nhóm có hợp tác không?	0	1	2
+4. Công nghệ
+	Nhóm đã từng làm công nghệ này chưa		0	1	2
+	Ngôn ngữ sử dụng nhóm thành thạo chưa?		0	1	2
+	Thủ tục thao tác với DB nhóm thành thạo chưa?	0	1	2
+5. QUi trình (áp dụng trong toàn công ty)
+	Công ty có làm việc theo qui trình Scrum không?	0	1	2
+	Qui trình áp dụng trước đây có lỗi gì không?	0	1	2
+6. Nghiệp vụ:
+	Nhóm đã từng làm với nghiệp vụ này chưa?	0	1	2
+------
+Mức 1: 0->11			1.5 (dễ chậm deadline)
+Mức 2: 12->23 -> bình thường 	1
+Mức 3: 24->36			0.5 (dễ bị khách hàng từ chối do tiền nhiều)
+------
+=> Số point thực tế = Số point chưa hiệu chỉnh + tổng point ảnh hưởng;
 			
-	
+	tổng point ảnh hưởng = (Số point chưa hiệu chỉnh x điểm khía cạnh môi trường)/36
+----
+Ví dụ:
+	Tính toán điểm cho chức năng thêm phòng khách sạn
+1. Tính point chưa hiệu chỉnh
+	Giao diện: 		1
+	Qui tắc nghiệp vụ: 	2
+	Số lượng thực thể:	2
+	Thao tác:		3
+	Tổng= 8(point)
+2. Tính điểm khía cạnh môi trường (ED)
+	Tổ chức: 	0
+	Hạ tầng:		3
+	Nhóm: 		4
+	Công nghệ:	4
+	Qui trình: 	0
+	Nghiệp vụ:	2
+	Tổng = 13
+	=> Số điểm hiệu chỉnh = (8x13)/36 = 2.89 (point)
+3. Tổng point sau hiệu chỉnh: 8 + 2.89 = 10.89 (point)
+-----------------------
+Xây dựng biểu mẫu ước lượng point:
+- Lab8 - 
+	1* Chuẩn bị sản phẩm để giao cho khách hàng
+		(Project Code + File hướng dẫn sử dụng phần mềm)
+	2* họp tổng kết dự án
+		- Đánh giá sản phẩm hoàn thiện được x% so vói yêu cầu
+		- Độ chậm deadline của dự án
+		- Đánh giá thành viên:
+			Hay chậm tiến độ,...: 0.9
+			Hoàn thành nhiệm vụ: 1
+			Hoàn thành xuất sắc: 1.1 => đề xuất tăng lương
+		- Với những người không tham gia dự án -> không đề xuất thành viên ở project sau
+
+SM chú ý: Cần xây dựng chính sách rieng để khuyến khích nhân viên
+	VD1: 
+	1. Thưởng dự án (lấy số tiền thừa từ quĩ lương)
+	Chấm điểm: 0.9		1	1.1
+	Xong dự án: (1.1) nhận thưởng 15%; (1.0) nhận 5%
+	2. Xử lý hệ số lương:
+		- Lương tháng của nhóm = Lương ký x 0.9
+		- 0.9 => không có gì
+		- 1.0 => nhận lại 10% của mình
+		- 1.1 => nhận lại 10% của mình + nhận lại 10% của bạn 0.9
+-------
 
 
+SM ~ vẽ ra định hướng, kế hoạch triển khai công việc
+PO ~ giám đốc công ty, nhà đầu tư
+Dev~ lập trình viên
+------
+Khi báo cáo (thi)
+- Thi theo nhóm
+- Thẻ sinh viên (CMT)
+- 2 link: link thi (chỉ khi thầy gọi mới được vào) và link chờ
+- Mở slide trình bày: Ai làm phần nào thì trình bày phần đó, show các biểu mẫu liên quan
+- Cuối cùng: demo sản phẩm đã làm được
 
 
 
